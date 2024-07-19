@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Twin Peaks</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personagens de Twin Peaks</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap">
+</head>
+<body>
+    <header>
+        <h1>Twin Peaks</h1>
+        <p>Conheça os principais personagens do seriado</p>
+    </header>
+    <main class="character-gallery">
+        <div class="character" onclick="showInfo('dale-cooper')">
+            <img src="https://64.media.tumblr.com/f2ec991606ecabeea2150c205876234e/b6490b144841b4a2-57/s540x810/842bb50c7a580be58d900e89b499c605d7942f30.gif" alt="Dale Cooper">
+            <p>Dale Cooper</p>
+        </div>
+        <div class="character" onclick="showInfo('laura-palmer')">
+            <img src="https://images.gr-assets.com/hostedimages/1440880715ra/16036201.gif" alt="Laura Palmer">
+            <p>Laura Palmer</p>
+        </div>
+        <div class="character" onclick="showInfo('audrey-horne')">
+            <img src="https://64.media.tumblr.com/780f5933daa5924124fbcc6bff58938e/fe50bf100f10197f-0f/s540x810/7516903a9db44b5b2b6e29380a83144c334d4536.gifv" alt="Audrey Horne">
+            <p>Audrey Horne</p>
+        </div>
+        <div class="character" onclick="showInfo('shelly-johnson')">
+            <img src="https://media.tenor.com/3-558-8LF6UAAAAM/m%C3%A4dchen-amick-twin-peaks.gif">
+            <p>Shelly Johnson</p>
+        </div>
+        <div class="character" onclick="showInfo('bobby-briggs')">
+            <img src="https://64.media.tumblr.com/ff24456a739eb922d0afe8ac35600053/tumblr_px4pie05y91qfirg5o2_r4_540.gif">
+            <p>Bobby Briggs</p>
+        </div>
+        <div class="character" onclick="showInfo('james-hurley')">
+            <img src="https://www.nme.com/wp-content/uploads/2017/05/ezgif-1-15d44ad10d.gif">
+            <p>James Hurley</p>
+        </div>
+        <div class="character" onclick="showInfo('leland-palmer')">
+            <img src="https://hips.hearstapps.com/digitalspyuk.cdnds.net/17/26/1498578745-killer-bob.gif?crop=0.9413333333333334xw:1xh;center,top&resize=1200:*" alt="Leland Palmer">
+            <p>Leland Palmer</p>
+        </div>
+        <div class="character" onclick="showInfo('benjamin-horne')">
+            <img src="https://consequence.net/wp-content/uploads/2017/05/ben-horne.gif?fit=1031%2C580&quality=80&strip=" alt="Benjamin Horne">
+            <p>Benjamin Horne</p>
+        </div>
+    </main>
+    <div id="character-info" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeInfo()">&times;</span>
+            <div id="info-content"></div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
